@@ -1,0 +1,21 @@
+{
+  "name": "nwsapi-issue",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest test.spec.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0"
+  },
+  "dependencies": {
+    "lit": "^2.7.2"
+  }
+}
